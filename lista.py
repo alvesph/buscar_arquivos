@@ -1,4 +1,5 @@
 import os
+from os.path import join, getsize
 
 path = '/home/ph'
 fileExtension = '.mp4'
@@ -7,7 +8,10 @@ def lista(path, fileExtesion):
     for pathFind, dir, archiveFind in os.walk(path):
         for archive in archiveFind:
             if archive.endswith(fileExtension):
-                print(f'{archive} ---- {pathFind}/{archive}')
+                p = pathFind+'/'+archive
+                size = getsize(p)
+                print(f'{archive} ---- {pathFind}/{archive} - {size}')
+                print(sum(getsize(join(pathFind, name)) for name in archiveFind), end=" ")
                 
 
 lista(path, fileExtension)
