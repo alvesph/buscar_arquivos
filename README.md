@@ -1,4 +1,4 @@
-## Buscar arquivos no sistema com Python
+## Buscar arquivos no sistema - com Python
 Buscando e listando arquivos de um diretório específico
 
 ### Tasks
