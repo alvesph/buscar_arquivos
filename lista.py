@@ -11,7 +11,6 @@ def lista(path, fileExtesion):
                 p = pathFind+'/'+archive
                 size = getsize(p)
                 print(f'{archive} ---- {pathFind}/{archive} - {size}')
-                print(sum(getsize(join(pathFind, name)) for name in archiveFind), end=" ")
                 
 
 lista(path, fileExtension)

@@ -6,7 +6,7 @@ Buscando e listando arquivos de um diretório específico
 - [x] Função de busca de diretórios;
 - [x] Função de listagem de arquivos por extensão;
 - [x] Função para link de abertura do arquivo;
-- [ ] Função de detalhamento do arquivo;
+- [x] Função de detalhamento do arquivo;
 
 ### Bibliotecas python
 
