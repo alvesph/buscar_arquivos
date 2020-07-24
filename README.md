@@ -9,6 +9,7 @@ Busca e lista todos os arquivos com uma extensão epecífica a partir de uma arv
 - [x] Função de listagem de arquivos por extensão;
 - [x] Função para link de abertura do arquivo;
 - [x] Função de detalhamento do arquivo;
+- [ ] Interface gráfica;
 
 ### Bibliotecas python
 
