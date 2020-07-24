@@ -1,5 +1,7 @@
 ## Buscar arquivos no sistema - com Python
-Buscando e listando arquivos de um diretório específico
+Busca e lista todos os arquivos com uma extensão epecífica a partir de uma arvore de diretórios.
+
+
 
 ### Tasks
 
@@ -10,6 +12,6 @@ Buscando e listando arquivos de um diretório específico
 
 ### Bibliotecas python
 
-1. os função os.walk()
+1. Método os.walk()
 
 Essa funão percorre os arquivos começando do diretório raiz até o atual, ou o contrário. Gera três tuplas (caminho de diretório, nomes de diretórios, nomes de arquivos).
